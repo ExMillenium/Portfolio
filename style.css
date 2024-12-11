@@ -1,0 +1,39 @@
+body {
+  margin : 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: rgb(57, 55, 55);
+  position: fixed;
+  height: 100%;
+  overflow: hidden;
+}
+li {
+  display: block;
+  color: #bdb8b8;
+  padding: 24px 54px;
+  text-decoration: none;
+}
+
+li a:hover(.active) {
+  color: white;
+}
+.citation {
+  color: #ffffff;
+  text-align: center;
+}
+.haut {
+  margin-left: 25%;
+  padding:10px 16px;
+  text-align: center;
+  background-color: rgb(171, 164, 164);
+  height: 260px;
+}
+.propos {
+  margin-left: 25%;
+  padding-left: 30px;
+}
